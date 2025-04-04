@@ -90,3 +90,8 @@ function verificarPar(i){
 }
 
 verificarPar(i);
+
+//6.Vogal ou Consoante  
+//Crie um algoritmo que leia uma letra digitada pelo usuário e informe se ela é uma vogal ou uma consoante.  
+//Dica: utilize `if` ou `switch` e arrays para armazenar as vogais.
+
