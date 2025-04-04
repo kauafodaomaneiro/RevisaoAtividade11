@@ -59,3 +59,34 @@ function balancoFinanceiro (ganhoBruto, gastosMensais){
 }
 
 balancoFinanceiro(ganhoBruto,gastosMensais);
+
+//4. Números em Ordem Decrescente  
+//Crie um algoritmo que solicite ao usuário quatro valores inteiros e os exiba em ordem decrescente.  
+//Dica: pesquise sobre o uso de arrays e a função `sort()`.
+
+//IMCOMPLETO
+
+let A = parseInt(prompt('Insira o primeiro numero inteiro'));
+let B = parseInt(prompt('Insira o segundo numero inteiro'));
+let C = parseInt(prompt('Insira o terceiro numero inteiro'));
+let D = parseInt(prompt('Insira o quarto numero inteiro'));
+
+let numeros = (A,B,C,D);
+
+//5. Transformador de Par em Ímpar  
+//Crie um algoritmo que peça um número ao usuário. Se o número for par, transforme-o em ímpar. Se for ímpar, transforme-o em par.  
+//Dica: utilize o operador `%` para identificar se o número é par ou ímpar.
+
+let i = parseInt(prompt('digite seu número'));
+
+function verificarPar(i){
+    if(i % 2 === 0){
+        let u = (i + 1);
+        console.log('O numero: ' + i + ' era par, transformando em impar:' + u);
+    }else{
+        let u = (i + 1);
+        console.log('O numero: ' + i + ' era impar, transformando em par: ' + u);
+    }
+}
+
+verificarPar(i);
